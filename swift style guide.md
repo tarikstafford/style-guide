@@ -41,6 +41,8 @@ and not like so
 } else {
 ```
 
+- curly braces should have exactly one space before / after content, e.g. `{ doWork() }` and not `{doWork()}` or `{   doWork()  }`
+
 
 ## fail early, prefer avoid unnecesary `else` clauses
 
