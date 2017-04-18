@@ -42,7 +42,7 @@ and not like so
 ```
 
 - curly braces should have exactly one space before / after content, e.g. `{ doWork() }` and not `{doWork()}` or `{   doWork()  }`
-
+- func params should be aligned like so `func funcName(paramName: ParamType, anotherParam: ParamType)`
 
 ## fail early, prefer avoid unnecesary `else` clauses
 
