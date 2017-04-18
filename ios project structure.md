@@ -30,3 +30,10 @@ Pods/Pods.xcodeproj/*
 ## classes
 - classes should be generally contain superclass name: `DashboardTableViewCell`, `DashboardViewController`
 - file containing class should be named same as class (unless containing multible classes)
+
+## git commits 
+
+- git commits should contain a descriptive description (unless a typo fix or minor alignment change) 
+- git commits should relatively small and conceivable in size, containing logical complete changes (an implemented feature) 
+- large features / changes should be split to multiple commits
+- commit should not break project builds or introduce warnings
