@@ -27,9 +27,10 @@ Pods/Pods.xcodeproj/*
 - - Models
 - - Helpers
 
-## classes
+## classes / files
 - classes should be generally contain superclass name: `DashboardTableViewCell`, `DashboardViewController`
 - file containing class should be named same as class (unless containing multible classes)
+- obsolete classes / files / comments should be removed 
 
 ## git commits 
 
@@ -37,3 +38,8 @@ Pods/Pods.xcodeproj/*
 - git commits should relatively small and conceivable in size, containing logical complete changes (an implemented feature) 
 - large features / changes should be split to multiple commits
 - commit should not break project builds or introduce warnings
+
+## cocoapods 
+
+- pods should be included to git repo - unless containing files that does not fit to github / bitbucket file size limit 
+- pods that are not in use anymore should be removed
