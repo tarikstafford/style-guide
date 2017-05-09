@@ -41,7 +41,7 @@ and not like so
 } else {
 ```
 
-- curly braces should have exactly one space before / after content, e.g. `{ doWork() }` and not `{doWork()}` or `{   doWork()  }`
+- curly braces should have exactly one space before / after content, e.g. `{ doWork() }` and not `{doWork()}`
 - func param spaces should be aligned like so `func funcName(paramName: ParamType, anotherParam: ParamType)`
 
 ## fail early, prefer avoid unnecesary `else` clauses
