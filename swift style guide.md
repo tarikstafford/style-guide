@@ -8,7 +8,7 @@
 
 - descriptive func names
 - long names for short scopes and short nice names for long scopes (opposite for `var` names)
-- for blocks of 1-2 lines, opening brace should be on the same line with scope declaration, for blocks of 3+ lines opening brace should be on a separate line; very small blocks should be one-liners: 
+- braces style - K&R, opening brace should be on the same line with scope declaration; very small blocks should be one-liners: 
 
 ```swift
 func dismiss() { dismiss(animated: true) }
@@ -22,8 +22,7 @@ if isLoading == false {
 ```
 
 ```swift
-override func viewDidLoad()
-{
+override func viewDidLoad() {
     super.viewDidLoad()
     navigationItem.title = "Add new"
     navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(self.dismissThis))
@@ -44,7 +43,7 @@ and not like so
 - curly braces should have exactly one space before / after content, e.g. `{ doWork() }` and not `{doWork()}`
 - func param spaces should be aligned like so `func funcName(paramName: ParamType, anotherParam: ParamType)`
 
-## fail early, prefer avoid unnecesary `else` clauses
+## fail early, prefer `guard` to `if-else`
 
 - use: 
 ```swift 
