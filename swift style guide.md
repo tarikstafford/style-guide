@@ -1,3 +1,8 @@
+## classes / structs declarations
+
+- opening brace should be on the same line with class / struct declaration
+- use extensions for logically different parts of the class, e.g. `UITableViewDelegate` in a `UIViewController`
+
 ## let / var 
 
 - camelCase 
@@ -8,7 +13,7 @@
 
 - descriptive func names
 - long names for short scopes and short nice names for long scopes (opposite for `var` names)
-- braces style - K&R, opening brace should be on the same line with scope declaration; very small blocks should be one-liners: 
+- braces style - opening brace should be on the same line with scope declaration; very small blocks should be one-liners: 
 
 ```swift
 func dismiss() { dismiss(animated: true) }
