@@ -28,7 +28,7 @@ Pods/Pods.xcodeproj/*
 - - Helpers
 
 ## classes / files
-- classes should be generally contain superclass name: `DashboardTableViewCell`, `DashboardViewController`
+- classes should generally contain superclass name: `DashboardTableViewCell`, `DashboardViewController`
 - file containing class should be named same as class (unless containing multiple classes)
 - obsolete classes / files / comments should be removed 
 - in most cases, table cell classes should be in their own files separate from view controllers
