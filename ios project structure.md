@@ -22,12 +22,22 @@ Pods/Pods.xcodeproj/*
 
 ## folder structure 
 
-- folders should generally contain these with respective files placed inside
-- - View Controllers
-- - Models
-- - Helpers
+- project should be structured by components
+- - Component 1
+- - - Logic
+- - - Views
+- - - Storyboard / Assets
+- - Component 2
+- - ...
+
+each component should be independent from the other major componnts, clojures or interfaces should be used to segregate them
+
+## frameworks 
+
+a set of code that has a common goal and is not specific to the project at hand should be extracted to a framework
 
 ## classes / files
+
 - classes should generally contain superclass name: `DashboardTableViewCell`, `DashboardViewController`
 - file containing class should be named same as class (unless containing multiple classes)
 - obsolete classes / files / comments should be removed 
